@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<img src="download.jpg" alt="simply easy learning" width="100" height="70" class="center">
+<link rel="stylesheet" href="Color.css">
+<style>
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="HOME.html">Home</a>
+  <a href="Admin.html">Admin</a>
+  <a href="Sign.html">sign in</a>
+</div>
+
+<div style="padding:15px 15px 2500px;font-size:24px">
+  <h1>Vision & Mission</h1>
+  <hr color="red">
+  <h3><b>VISION:</b></h3>
+  <p>To be a world class police service, with a people-friendly, responsive and professional workforce.</p>
+  <h3><b>MISSION:</b></h3>
+  <p>We are committed to providing T quality police service to meet the expectations of our customers; by upholding the rule of law,
+    creating and maintaining strong partnerships for a conducive social, economic and political development of Kenya.
+    </p>
+    <h3><b>CORE VALUES:</b></h3>
+    <p>Be proactive and responsive in the discharge of our duties:<br>
+        o	To exercise integrity and courtesy at all time;<br>
+        o	To cultivate and maintain partnership with all stakeholders;<br>
+        o	To create and maintain team spirit within the service;<br>
+        o	To be fair and firm in all our undertakings;<br>
+        o	To maintain a disciplined and professional workforce;<br>
+        o	To be gender sensitive; and<br>
+        o	To promote, protect and respect the human rights of our customers.<br>
+    </p>
+    <h3><b>CORE FUNCTIONS:</b></h3>
+<p>
+    o	Maintenance of law and order;<br>
+    o	Preservation of peace;<br>
+    o	Protection of life and property;<br>
+    o	Prevention and detection of crime;<br>
+    o	Apprehension of offenders; and<br>
+    o	Enforcement of all laws and regulations with which it has been charged.
+
+
+    
+
+</p>
+
+<footer align="center">&COPY;Utumishikwawote@2020</footer>
+</div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+}
+</script>
+
+
+<footer align="center">&COPY;Utumishikwawote@2020</footer>
+
+</body>
+
+
+</html>
